@@ -1,0 +1,271 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ImageLabel")
+local Gradient = Instance.new("UIGradient")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local IY = Instance.new("ImageButton")
+local IY_2 = Instance.new("TextLabel")
+local PrisonWare = Instance.new("ImageButton")
+local PrisonWare_2 = Instance.new("TextLabel")
+local Orca = Instance.new("ImageButton")
+local Orca_2 = Instance.new("TextLabel")
+local Hydroxide = Instance.new("ImageButton")
+local Hydroxide_2 = Instance.new("TextLabel")
+local Minimalize = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local ESP = Instance.new("ImageButton")
+local ESP_2 = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+ 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ 
+Frame.Name = "Frame"
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.350311369, 0, 0.377906978, 0)
+Frame.Size = UDim2.new(0, 350, 0, 199)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(41, 42, 89)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+Frame.Active = true
+Frame.Draggable = true
+ 
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(41, 42, 89)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0485714301, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 95, 0, 43)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "agua"
+TextLabel.TextColor3 = Color3.fromRGB(169, 244, 255)
+TextLabel.TextSize = 40.000
+ 
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(41, 42, 89)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.319999993, 0, 0.120603018, 0)
+TextLabel_2.Size = UDim2.new(0, 40, 0, 26)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "alpha"
+TextLabel_2.TextColor3 = Color3.fromRGB(155, 223, 237)
+TextLabel_2.TextSize = 14.000
+ 
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(41, 42, 89)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.897142828, 0, 0, 0)
+Close.Size = UDim2.new(0, 27, 0, 26)
+Close.Font = Enum.Font.Gotham
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(161, 231, 245)
+Close.TextSize = 14.000
+Close.MouseButton1Down:Connect(function()
+	Frame.Active = false
+	Frame.Visible = false
+end)
+ScrollingFrame.Name = "ScrollingFrame"
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.ClipsDescendants = true
+ScrollingFrame.Position = UDim2.new(0.0485714301, 0, 0.281407028, 0)
+ScrollingFrame.Selectable = true
+ScrollingFrame.Size = UDim2.new(0, 215, 0, 112)
+ScrollingFrame.Image = "rbxassetid://4878247716"
+ScrollingFrame.ImageColor3 = Color3.fromRGB(10, 9, 44)
+ScrollingFrame.ScaleType = Enum.ScaleType.Slice
+ScrollingFrame.SliceCenter = Rect.new(250, 250, 250, 250)
+ScrollingFrame.SliceScale = 0.100
+ 
+Gradient.Rotation = 90
+Gradient.Name = "Gradient"
+Gradient.Parent = ScrollingFrame
+ 
+ScrollingFrame_2.Parent = ScrollingFrame
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(10, 9, 44)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Size = UDim2.new(1, 0, 1, 0)
+ScrollingFrame_2.ScrollBarThickness = 6
+ScrollingFrame_2.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+ 
+IY.Name = "IY"
+IY.Parent = ScrollingFrame_2
+IY.BackgroundTransparency = 1.000
+IY.ClipsDescendants = true
+IY.Position = UDim2.new(0.0738870278, 0, 0.0833631232, 0)
+IY.Size = UDim2.new(0, 83, 0, 29)
+IY.Image = "rbxassetid://4878247716"
+IY.ImageColor3 = Color3.fromRGB(41, 42, 89)
+IY.ScaleType = Enum.ScaleType.Slice
+IY.SliceCenter = Rect.new(250, 250, 250, 250)
+IY.SliceScale = 0.100
+IY.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+IY_2.Name = "IY"
+IY_2.Parent = IY
+IY_2.Active = true
+IY_2.BackgroundTransparency = 1.000
+IY_2.ClipsDescendants = true
+IY_2.Selectable = true
+IY_2.Size = UDim2.new(1, 0, 1, 0)
+IY_2.Font = Enum.Font.Gotham
+IY_2.Text = "IY"
+IY_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+IY_2.TextSize = 14.000
+ 
+PrisonWare.Name = "PrisonWare"
+PrisonWare.Parent = ScrollingFrame_2
+PrisonWare.BackgroundTransparency = 1.000
+PrisonWare.ClipsDescendants = true
+PrisonWare.Position = UDim2.new(0.506445169, 0, 0.0863691047, 0)
+PrisonWare.Size = UDim2.new(0, 83, 0, 29)
+PrisonWare.Image = "rbxassetid://4878247716"
+PrisonWare.ImageColor3 = Color3.fromRGB(41, 42, 89)
+PrisonWare.ScaleType = Enum.ScaleType.Slice
+PrisonWare.SliceCenter = Rect.new(250, 250, 250, 250)
+PrisonWare.SliceScale = 0.100
+PrisonWare.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+end)
+PrisonWare_2.Name = "PrisonWare"
+PrisonWare_2.Parent = PrisonWare
+PrisonWare_2.Active = true
+PrisonWare_2.BackgroundTransparency = 1.000
+PrisonWare_2.ClipsDescendants = true
+PrisonWare_2.Selectable = true
+PrisonWare_2.Size = UDim2.new(1, 0, 1, 0)
+PrisonWare_2.Font = Enum.Font.Gotham
+PrisonWare_2.Text = "PrisonWare"
+PrisonWare_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+PrisonWare_2.TextSize = 14.000
+ 
+Orca.Name = "Orca"
+Orca.Parent = ScrollingFrame_2
+Orca.BackgroundTransparency = 1.000
+Orca.ClipsDescendants = true
+Orca.Position = UDim2.new(0.0738870278, 0, 0.256011963, 0)
+Orca.Size = UDim2.new(0, 83, 0, 29)
+Orca.Image = "rbxassetid://4878247716"
+Orca.ImageColor3 = Color3.fromRGB(41, 42, 89)
+Orca.ScaleType = Enum.ScaleType.Slice
+Orca.SliceCenter = Rect.new(250, 250, 250, 250)
+Orca.SliceScale = 0.100
+Orca.MouseButton1Down:Connect(function()
+	loadstring(
+		game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua")
+	)()
+end)
+Orca_2.Name = "Orca"
+Orca_2.Parent = Orca
+Orca_2.Active = true
+Orca_2.BackgroundTransparency = 1.000
+Orca_2.ClipsDescendants = true
+Orca_2.Selectable = true
+Orca_2.Size = UDim2.new(1, 0, 1, 0)
+Orca_2.Font = Enum.Font.Gotham
+Orca_2.Text = "Orca"
+Orca_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+Orca_2.TextSize = 14.000
+ 
+Hydroxide.Name = "Hydroxide"
+Hydroxide.Parent = ScrollingFrame_2
+Hydroxide.BackgroundTransparency = 1.000
+Hydroxide.ClipsDescendants = true
+Hydroxide.Position = UDim2.new(0.506445169, 0, 0.253095359, 0)
+Hydroxide.Size = UDim2.new(0, 83, 0, 29)
+Hydroxide.Image = "rbxassetid://4878247716"
+Hydroxide.ImageColor3 = Color3.fromRGB(41, 42, 89)
+Hydroxide.ScaleType = Enum.ScaleType.Slice
+Hydroxide.SliceCenter = Rect.new(250, 250, 250, 250)
+Hydroxide.SliceScale = 0.100
+Hydroxide.MouseButton1Down:Connect(function()
+	local owner = "Upbolt"
+	local branch = "revision"
+ 
+	local function webImport(file)
+		return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
+	end
+ 
+	webImport("init")
+	webImport("ui/main")
+end)
+Hydroxide_2.Name = "Hydroxide"
+Hydroxide_2.Parent = Hydroxide
+Hydroxide_2.Active = true
+Hydroxide_2.BackgroundTransparency = 1.000
+Hydroxide_2.ClipsDescendants = true
+Hydroxide_2.Selectable = true
+Hydroxide_2.Size = UDim2.new(1, 0, 1, 0)
+Hydroxide_2.Font = Enum.Font.Gotham
+Hydroxide_2.Text = "Hydroxide"
+Hydroxide_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+Hydroxide_2.TextSize = 14.000
+ 
+Minimalize.Name = "Minimalize"
+Minimalize.Parent = Frame
+Minimalize.BackgroundColor3 = Color3.fromRGB(41, 42, 89)
+Minimalize.BackgroundTransparency = 1.000
+Minimalize.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Minimalize.BorderSizePixel = 0
+Minimalize.Position = UDim2.new(0.819999993, 0, 0, 0)
+Minimalize.Size = UDim2.new(0, 27, 0, 24)
+Minimalize.Font = Enum.Font.Gotham
+Minimalize.Text = "-"
+Minimalize.TextColor3 = Color3.fromRGB(161, 231, 245)
+Minimalize.TextSize = 20.000
+ 
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.691428542, 0, 0.778894484, 0)
+ImageLabel.Size = UDim2.new(0, 99, 0, 30)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=16340816909"
+ 
+ESP.Name = "ESP"
+ESP.Parent = Frame
+ESP.BackgroundTransparency = 1.000
+ESP.ClipsDescendants = true
+ESP.Position = UDim2.new(0.713887095, 0, 0.374820411, 0)
+ESP.Size = UDim2.new(0, 83, 0, 29)
+ESP.Image = "rbxassetid://4878247716"
+ESP.ImageColor3 = Color3.fromRGB(10, 9, 44)
+ESP.ScaleType = Enum.ScaleType.Slice
+ESP.SliceCenter = Rect.new(250, 250, 250, 250)
+ESP.SliceScale = 0.100
+ESP.MouseButton1Down:Connect(function()
+	pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
+end)
+ESP_2.Name = "ESP"
+ESP_2.Parent = ESP
+ESP_2.Active = true
+ESP_2.BackgroundTransparency = 1.000
+ESP_2.ClipsDescendants = true
+ESP_2.Selectable = true
+ESP_2.Size = UDim2.new(1, 0, 1, 0)
+ESP_2.Font = Enum.Font.Gotham
+ESP_2.Text = "ESP"
+ESP_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+ESP_2.TextSize = 14.000
+ 
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(41, 42, 89)), ColorSequenceKeypoint.new(0.26, Color3.fromRGB(91, 94, 198)), ColorSequenceKeypoint.new(0.54, Color3.fromRGB(111, 116, 243)), ColorSequenceKeypoint.new(0.80, Color3.fromRGB(117, 122, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Frame
