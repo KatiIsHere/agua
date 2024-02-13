@@ -1,0 +1,473 @@
+local ScreenGui = Instance.new("ScreenGui")
+local AguaMain = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ImageLabel")
+local Gradient = Instance.new("UIGradient")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local IY = Instance.new("ImageButton")
+local IY_2 = Instance.new("TextLabel")
+local PrisonWare = Instance.new("ImageButton")
+local PrisonWare_2 = Instance.new("TextLabel")
+local Orca = Instance.new("ImageButton")
+local Orca_2 = Instance.new("TextLabel")
+local Hydroxide = Instance.new("ImageButton")
+local Hydroxide_2 = Instance.new("TextLabel")
+local Arsenal = Instance.new("ImageButton")
+local Arsenal_2 = Instance.new("TextLabel")
+local Minimalize = Instance.new("TextButton")
+local ESP = Instance.new("ImageButton")
+local ESP_2 = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local Iskrus = Instance.new("ImageButton")
+local Iskrus_2 = Instance.new("TextLabel")
+local DarkHub = Instance.new("ImageButton")
+local DarkHub_2 = Instance.new("TextLabel")
+local Open = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel_3 = Instance.new("TextLabel")
+local IskrusMenu = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local CloseIskrus = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+AguaMain.Name = "AguaMain"
+AguaMain.Parent = ScreenGui
+AguaMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AguaMain.BackgroundTransparency = 1.000
+AguaMain.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AguaMain.Position = UDim2.new(0.350311369, 0, 0.377906978, 0)
+AguaMain.Size = UDim2.new(0, 350, 0, 199)
+AguaMain.Image = "rbxassetid://3570695787"
+AguaMain.ImageColor3 = Color3.fromRGB(41, 42, 89)
+AguaMain.ScaleType = Enum.ScaleType.Slice
+AguaMain.SliceCenter = Rect.new(100, 100, 100, 100)
+AguaMain.SliceScale = 0.120
+AguaMain.Active = true
+AguaMain.Draggable = true
+
+TextLabel.Parent = AguaMain
+TextLabel.BackgroundColor3 = Color3.fromRGB(41, 42, 89)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0485714301, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 95, 0, 43)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "agua"
+TextLabel.TextColor3 = Color3.fromRGB(169, 244, 255)
+TextLabel.TextSize = 40.000
+
+TextLabel_2.Parent = AguaMain
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(41, 42, 89)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.319999993, 0, 0.120603018, 0)
+TextLabel_2.Size = UDim2.new(0, 40, 0, 26)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "alpha"
+TextLabel_2.TextColor3 = Color3.fromRGB(155, 223, 237)
+TextLabel_2.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = AguaMain
+Close.BackgroundColor3 = Color3.fromRGB(41, 42, 89)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.897142828, 0, 0, 0)
+Close.Size = UDim2.new(0, 27, 0, 26)
+Close.Font = Enum.Font.Gotham
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(161, 231, 245)
+Close.TextSize = 14.000
+Close.MouseButton1Down:Connect(function()
+	AguaMain.Active = false
+	AguaMain.Visible = false
+end)
+ScrollingFrame.Name = "ScrollingFrame"
+ScrollingFrame.Parent = AguaMain
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.ClipsDescendants = true
+ScrollingFrame.Position = UDim2.new(0.0485714301, 0, 0.281407028, 0)
+ScrollingFrame.Selectable = true
+ScrollingFrame.Size = UDim2.new(0, 215, 0, 112)
+ScrollingFrame.Image = "rbxassetid://4878247716"
+ScrollingFrame.ImageColor3 = Color3.fromRGB(10, 9, 44)
+ScrollingFrame.ScaleType = Enum.ScaleType.Slice
+ScrollingFrame.SliceCenter = Rect.new(250, 250, 250, 250)
+ScrollingFrame.SliceScale = 0.100
+
+Gradient.Rotation = 90
+Gradient.Name = "Gradient"
+Gradient.Parent = ScrollingFrame
+
+ScrollingFrame_2.Parent = ScrollingFrame
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(10, 9, 44)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Size = UDim2.new(1, 0, 1, 0)
+ScrollingFrame_2.ScrollBarThickness = 0
+ScrollingFrame_2.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+IY.Name = "IY"
+IY.Parent = ScrollingFrame_2
+IY.BackgroundTransparency = 1.000
+IY.ClipsDescendants = true
+IY.Position = UDim2.new(0.0738870278, 0, 0.0833631232, 0)
+IY.Size = UDim2.new(0, 83, 0, 29)
+IY.Image = "rbxassetid://4878247716"
+IY.ImageColor3 = Color3.fromRGB(41, 42, 89)
+IY.ScaleType = Enum.ScaleType.Slice
+IY.SliceCenter = Rect.new(250, 250, 250, 250)
+IY.SliceScale = 0.100
+IY.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+IY_2.Name = "IY"
+IY_2.Parent = IY
+IY_2.Active = true
+IY_2.BackgroundTransparency = 1.000
+IY_2.ClipsDescendants = true
+IY_2.Selectable = true
+IY_2.Size = UDim2.new(1, 0, 1, 0)
+IY_2.Font = Enum.Font.Gotham
+IY_2.Text = "IY"
+IY_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+IY_2.TextSize = 14.000
+
+PrisonWare.Name = "PrisonWare"
+PrisonWare.Parent = ScrollingFrame_2
+PrisonWare.BackgroundTransparency = 1.000
+PrisonWare.ClipsDescendants = true
+PrisonWare.Position = UDim2.new(0.506445169, 0, 0.0863691047, 0)
+PrisonWare.Size = UDim2.new(0, 83, 0, 29)
+PrisonWare.Image = "rbxassetid://4878247716"
+PrisonWare.ImageColor3 = Color3.fromRGB(41, 42, 89)
+PrisonWare.ScaleType = Enum.ScaleType.Slice
+PrisonWare.SliceCenter = Rect.new(250, 250, 250, 250)
+PrisonWare.SliceScale = 0.100
+PrisonWare.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+end)
+PrisonWare_2.Name = "PrisonWare"
+PrisonWare_2.Parent = PrisonWare
+PrisonWare_2.Active = true
+PrisonWare_2.BackgroundTransparency = 1.000
+PrisonWare_2.ClipsDescendants = true
+PrisonWare_2.Selectable = true
+PrisonWare_2.Size = UDim2.new(1, 0, 1, 0)
+PrisonWare_2.Font = Enum.Font.Gotham
+PrisonWare_2.Text = "PrisonWare"
+PrisonWare_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+PrisonWare_2.TextSize = 14.000
+
+Orca.Name = "Orca"
+Orca.Parent = ScrollingFrame_2
+Orca.BackgroundTransparency = 1.000
+Orca.ClipsDescendants = true
+Orca.Position = UDim2.new(0.0738870278, 0, 0.256011963, 0)
+Orca.Size = UDim2.new(0, 83, 0, 29)
+Orca.Image = "rbxassetid://4878247716"
+Orca.ImageColor3 = Color3.fromRGB(41, 42, 89)
+Orca.ScaleType = Enum.ScaleType.Slice
+Orca.SliceCenter = Rect.new(250, 250, 250, 250)
+Orca.SliceScale = 0.100
+Orca.MouseButton1Down:Connect(function()
+	loadstring(
+		game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua")
+	)()
+end)
+Orca_2.Name = "Orca"
+Orca_2.Parent = Orca
+Orca_2.Active = true
+Orca_2.BackgroundTransparency = 1.000
+Orca_2.ClipsDescendants = true
+Orca_2.Selectable = true
+Orca_2.Size = UDim2.new(1, 0, 1, 0)
+Orca_2.Font = Enum.Font.Gotham
+Orca_2.Text = "Orca"
+Orca_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+Orca_2.TextSize = 14.000
+
+Hydroxide.Name = "Hydroxide"
+Hydroxide.Parent = ScrollingFrame_2
+Hydroxide.BackgroundTransparency = 1.000
+Hydroxide.ClipsDescendants = true
+Hydroxide.Position = UDim2.new(0.506445169, 0, 0.253095359, 0)
+Hydroxide.Size = UDim2.new(0, 83, 0, 29)
+Hydroxide.Image = "rbxassetid://4878247716"
+Hydroxide.ImageColor3 = Color3.fromRGB(41, 42, 89)
+Hydroxide.ScaleType = Enum.ScaleType.Slice
+Hydroxide.SliceCenter = Rect.new(250, 250, 250, 250)
+Hydroxide.SliceScale = 0.100
+Hydroxide.MouseButton1Down:Connect(function()
+	local owner = "Upbolt"
+	local branch = "revision"
+
+	local function webImport(file)
+		return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
+	end
+
+	webImport("init")
+	webImport("ui/main")
+end)
+Hydroxide_2.Name = "Hydroxide"
+Hydroxide_2.Parent = Hydroxide
+Hydroxide_2.Active = true
+Hydroxide_2.BackgroundTransparency = 1.000
+Hydroxide_2.ClipsDescendants = true
+Hydroxide_2.Selectable = true
+Hydroxide_2.Size = UDim2.new(1, 0, 1, 0)
+Hydroxide_2.Font = Enum.Font.Gotham
+Hydroxide_2.Text = "Hydroxide"
+Hydroxide_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+Hydroxide_2.TextSize = 14.000
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = ScrollingFrame_2
+Arsenal.BackgroundTransparency = 1.000
+Arsenal.ClipsDescendants = true
+Arsenal.Position = UDim2.new(0.0738870278, 0, 0.590122759, 0)
+Arsenal.Size = UDim2.new(0, 83, 0, 29)
+Arsenal.Image = "rbxassetid://4878247716"
+Arsenal.ImageColor3 = Color3.fromRGB(41, 42, 89)
+Arsenal.ScaleType = Enum.ScaleType.Slice
+Arsenal.SliceCenter = Rect.new(250, 250, 250, 250)
+Arsenal.SliceScale = 0.100
+Arsenal.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+end)
+Arsenal_2.Name = "Arsenal"
+Arsenal_2.Parent = Arsenal
+Arsenal_2.Active = true
+Arsenal_2.BackgroundTransparency = 1.000
+Arsenal_2.ClipsDescendants = true
+Arsenal_2.Selectable = true
+Arsenal_2.Size = UDim2.new(1, 0, 1, 0)
+Arsenal_2.Font = Enum.Font.Gotham
+Arsenal_2.Text = "Arsenal"
+Arsenal_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+Arsenal_2.TextSize = 14.000
+
+Minimalize.Name = "Minimalize"
+Minimalize.Parent = AguaMain
+Minimalize.BackgroundColor3 = Color3.fromRGB(41, 42, 89)
+Minimalize.BackgroundTransparency = 1.000
+Minimalize.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Minimalize.BorderSizePixel = 0
+Minimalize.Position = UDim2.new(0.819999993, 0, 0, 0)
+Minimalize.Size = UDim2.new(0, 27, 0, 24)
+Minimalize.Font = Enum.Font.Gotham
+Minimalize.Text = "-"
+Minimalize.TextColor3 = Color3.fromRGB(161, 231, 245)
+Minimalize.TextSize = 20.000
+Minimalize.MouseButton1Down:Connect(function()
+	AguaMain.Visible = false
+	Open.Visible = true
+end)
+ESP.Name = "ESP"
+ESP.Parent = AguaMain
+ESP.BackgroundTransparency = 1.000
+ESP.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ESP.ClipsDescendants = true
+ESP.Position = UDim2.new(0.713887095, 0, 0.374820411, 0)
+ESP.Size = UDim2.new(0, 83, 0, 29)
+ESP.Image = "rbxassetid://4878247716"
+ESP.ImageColor3 = Color3.fromRGB(10, 9, 44)
+ESP.ScaleType = Enum.ScaleType.Slice
+ESP.SliceCenter = Rect.new(250, 250, 250, 250)
+ESP.SliceScale = 0.100
+ESP.MouseButton1Down:Connect(function()
+	local Players = game:GetService("Players"):GetChildren()
+	local RunService = game:GetService("RunService")
+	local highlight = Instance.new("Highlight")
+	highlight.Name = "Highlight"
+
+	for i, v in pairs(Players) do
+		repeat wait() until v.Character
+		if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then
+			local highlightClone = highlight:Clone()
+			highlightClone.Adornee = v.Character
+			highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart")
+			highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+			highlightClone.Name = "Highlight"
+		end
+	end
+
+	game.Players.PlayerAdded:Connect(function(player)
+		repeat wait() until player.Character
+		if not player.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then
+			local highlightClone = highlight:Clone()
+			highlightClone.Adornee = player.Character
+			highlightClone.Parent = player.Character:FindFirstChild("HumanoidRootPart")
+			highlightClone.Name = "Highlight"
+		end
+	end)
+
+	game.Players.PlayerRemoving:Connect(function(playerRemoved)
+		playerRemoved.Character:FindFirstChild("HumanoidRootPart").Highlight:Destroy()
+	end)
+
+	RunService.Heartbeat:Connect(function()
+		for i, v in pairs(Players) do
+			repeat wait() until v.Character
+			if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then
+				local highlightClone = highlight:Clone()
+				highlightClone.Adornee = v.Character
+				highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart")
+				highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+				highlightClone.Name = "Highlight"
+				task.wait()
+			end
+		end
+	end)
+end)
+ESP_2.Name = "ESP"
+ESP_2.Parent = ESP
+ESP_2.Active = true
+ESP_2.BackgroundTransparency = 1.000
+ESP_2.ClipsDescendants = true
+ESP_2.Selectable = true
+ESP_2.Size = UDim2.new(1, 0, 1, 0)
+ESP_2.Font = Enum.Font.Gotham
+ESP_2.Text = "ESP"
+ESP_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+ESP_2.TextSize = 14.000
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(41, 42, 89)), ColorSequenceKeypoint.new(0.26, Color3.fromRGB(91, 94, 198)), ColorSequenceKeypoint.new(0.54, Color3.fromRGB(111, 116, 243)), ColorSequenceKeypoint.new(0.80, Color3.fromRGB(117, 122, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = AguaMain
+
+Iskrus.Name = "Iskrus"
+Iskrus.Parent = AguaMain
+Iskrus.BackgroundTransparency = 1.000
+Iskrus.ClipsDescendants = true
+Iskrus.Position = UDim2.new(0.712823987, 0, 0.812723458, 0)
+Iskrus.Size = UDim2.new(0, 83, 0, 29)
+Iskrus.Image = "rbxassetid://4878247716"
+Iskrus.ImageColor3 = Color3.fromRGB(10, 9, 44)
+Iskrus.ScaleType = Enum.ScaleType.Slice
+Iskrus.SliceCenter = Rect.new(250, 250, 250, 250)
+Iskrus.SliceScale = 0.100
+Iskrus.MouseButton1Down:Connect(function()
+	IskrusMenu.Visible = true
+end)
+Iskrus_2.Name = "Iskrus"
+Iskrus_2.Parent = Iskrus
+Iskrus_2.Active = true
+Iskrus_2.BackgroundTransparency = 1.000
+Iskrus_2.ClipsDescendants = true
+Iskrus_2.Selectable = true
+Iskrus_2.Size = UDim2.new(1, 0, 1, 0)
+Iskrus_2.Font = Enum.Font.Gotham
+Iskrus_2.Text = "Iskrus"
+Iskrus_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+Iskrus_2.TextSize = 14.000
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = AguaMain
+DarkHub.BackgroundTransparency = 1.000
+DarkHub.BorderColor3 = Color3.fromRGB(27, 42, 53)
+DarkHub.ClipsDescendants = true
+DarkHub.Position = UDim2.new(0.713887095, 0, 0.565775216, 0)
+DarkHub.Size = UDim2.new(0, 83, 0, 29)
+DarkHub.Image = "rbxassetid://4878247716"
+DarkHub.ImageColor3 = Color3.fromRGB(10, 9, 44)
+DarkHub.ScaleType = Enum.ScaleType.Slice
+DarkHub.SliceCenter = Rect.new(250, 250, 250, 250)
+DarkHub.SliceScale = 0.100
+DarkHub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+DarkHub_2.Name = "DarkHub"
+DarkHub_2.Parent = DarkHub
+DarkHub_2.Active = true
+DarkHub_2.BackgroundTransparency = 1.000
+DarkHub_2.ClipsDescendants = true
+DarkHub_2.Selectable = true
+DarkHub_2.Size = UDim2.new(1, 0, 1, 0)
+DarkHub_2.Font = Enum.Font.Gotham
+DarkHub_2.Text = "DarkHub"
+DarkHub_2.TextColor3 = Color3.fromRGB(161, 231, 245)
+DarkHub_2.TextSize = 14.000
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0, 0, 0.50444597, 0)
+Open.Size = UDim2.new(0, 177, 0, 49)
+Open.Visible = false
+Open.Font = Enum.Font.Gotham
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(211, 248, 255)
+Open.TextSize = 14.000
+Open.MouseButton1Down:Connect(function()
+	Open.Visible = false
+	AguaMain.Visible = true
+end)
+UICorner.Parent = Open
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(8, 8, 35)), ColorSequenceKeypoint.new(0.32, Color3.fromRGB(18, 19, 87)), ColorSequenceKeypoint.new(0.64, Color3.fromRGB(26, 27, 89)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(40, 41, 89))}
+UIGradient_2.Parent = Open
+
+TextLabel_3.Parent = Open
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 177, 0, 50)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "Open"
+TextLabel_3.TextColor3 = Color3.fromRGB(169, 244, 255)
+TextLabel_3.TextSize = 25.000
+
+IskrusMenu.Name = "IskrusMenu"
+IskrusMenu.Parent = ScreenGui
+IskrusMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IskrusMenu.BorderColor3 = Color3.fromRGB(27, 42, 53)
+IskrusMenu.BorderSizePixel = 0
+IskrusMenu.Position = UDim2.new(0.748576045, 0, 0.318057448, 0)
+IskrusMenu.Size = UDim2.new(0, 175, 0, 226)
+IskrusMenu.Visible = false
+
+UICorner_2.Parent = IskrusMenu
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(8, 8, 38)), ColorSequenceKeypoint.new(0.26, Color3.fromRGB(16, 16, 74)), ColorSequenceKeypoint.new(0.54, Color3.fromRGB(18, 19, 87)), ColorSequenceKeypoint.new(0.80, Color3.fromRGB(27, 28, 89)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(40, 41, 89))}
+UIGradient_3.Parent = IskrusMenu
+
+CloseIskrus.Name = "CloseIskrus"
+CloseIskrus.Parent = IskrusMenu
+CloseIskrus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseIskrus.BackgroundTransparency = 1.000
+CloseIskrus.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseIskrus.BorderSizePixel = 0
+CloseIskrus.Position = UDim2.new(0.805714309, 0, 0, 0)
+CloseIskrus.Size = UDim2.new(0, 34, 0, 35)
+CloseIskrus.Font = Enum.Font.Gotham
+CloseIskrus.Text = "X"
+CloseIskrus.TextColor3 = Color3.fromRGB(132, 188, 210)
+CloseIskrus.TextSize = 15.000
+CloseIskrus.TextTransparency = 0.050
+CloseIskrus.MouseButton1Down:Connect(function()
+	IskrusMenu.Visible = false
+end)
+ImageLabel.Parent = IskrusMenu
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 0, 0.526726365, 0)
+ImageLabel.Size = UDim2.new(0, 174, 0, 58)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=16340816909"
